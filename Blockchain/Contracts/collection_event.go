@@ -16,10 +16,12 @@ type GeoZone struct {
 }
 
 type PlantRules struct {
-	PlantName   string    `json:"plant_name"`
-	Seasons     []int     `json:"seasons"`       
-	Zones       []GeoZone `json:"zones"`         
-	MaxQuantity float64   `json:"max_quantity"`  
+	PlantName     string    `json:"plant_name"`
+	Seasons       []int     `json:"seasons"`
+	Zones         []GeoZone `json:"zones"`
+	MaxQuantity   float64   `json:"max_quantity"`
+ 	MaxMoisture   float64   `json:"max_moisture"`  
+	MaxPesticide  float64   `json:"max_pesticide"` 
 }
 
 type EventHistory struct {
