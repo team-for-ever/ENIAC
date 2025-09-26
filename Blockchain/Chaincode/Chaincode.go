@@ -1,7 +1,3 @@
-// chaincode.go - Main Chaincode Entry Point for Multi-Contract Supply Chain
-// This file registers all four separate contracts (CollectionEventContract, QualityTestContract,
-// ProcessingStepContract, QRCodeContract) into a single chaincode package for Hyperledger Fabric.
-
 package main
 
 import (
