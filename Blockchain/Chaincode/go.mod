@@ -1,3 +1,4 @@
+// supplychain-chaincode/go.mod
 module supplychain-chaincode
 
 go 1.21
